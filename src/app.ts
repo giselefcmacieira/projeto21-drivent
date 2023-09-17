@@ -1,6 +1,6 @@
 import 'reflect-metadata';
-import 'express-async-errors';
 import express, { Express } from 'express';
+import 'express-async-errors';
 import cors from 'cors';
 import { handleApplicationErrors } from '@/middlewares';
 import { usersRouter, authenticationRouter, eventsRouter, enrollmentsRouter } from '@/routers';

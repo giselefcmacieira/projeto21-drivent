@@ -17,10 +17,10 @@ export type AddressInfo = {
   bairro: string | null;
   cidade: string | null;
   uf: string | null;
-}
+};
 
 export type APIInfo = {
-  data:{
+  data: {
     cep: string | null;
     logradouro: string | null;
     complemento: string | null;
@@ -31,10 +31,10 @@ export type APIInfo = {
     gia: string | null;
     ddd: string | null;
     siafi: string | null;
-    erro ?: boolean
-  }
-}
+    erro?: boolean;
+  };
+};
 
 export type CEPquery = {
-  cep: number | string
-}
+  cep: number | string;
+};

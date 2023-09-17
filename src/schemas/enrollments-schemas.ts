@@ -4,8 +4,8 @@ import { CreateOrUpdateEnrollmentWithAddress } from '@/services';
 import { CEPquery } from '@/protocols';
 
 export const cepSchema = Joi.object<CEPquery>({
-  cep: Joi.string().length(8).required()
-})
+  cep: Joi.string().length(8).required(),
+});
 
 const cpfValidationSchema = Joi.string().length(11).custom(joiCpfValidation).required();
 
